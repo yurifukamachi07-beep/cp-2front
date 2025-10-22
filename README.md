@@ -19,11 +19,11 @@ cp-front-main/
 │   │── assets
 │   |   |── Imagens
 │   │── css
-│   │   |──contato.css
-│   │   |──produtos.css
-│   │   |──sobrenos.css
-│   │   |──unidades.css
-│   │   |──style.css
+    │   │   |──contato.css
+    │   │   |──produtos.css
+    │   │   |──sobrenos.css
+    │   │   |──unidades.css
+    │   │   |──style.css
 │   │──pages
 │       │── sobre_nos.html
 │       │── produtos.html
@@ -39,4 +39,4 @@ Michel | RM 567345
 Yuri | RM 567314
 
 #O site está disponível no GitHub:
-dedeferreira.github.io/cp-front/ 
+https://yurifukamachi07-beep.github.io/cp-2front/

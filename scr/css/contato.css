@@ -88,7 +88,6 @@ body {
     margin-bottom: 30px;
 }
 
-/* --- Campos do formulário --- */
 .formulario-contato .linha-campos {
     display: flex;
     gap: 20px;
@@ -111,11 +110,8 @@ body {
     transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-/* Efeito de foco sutil no campo (transformação) */
 .formulario-contato input:focus,
 .formulario-contato textarea:focus {
-    border-color: #B8860B;
-    outline: none;
     transform: scale(1.02);
 }
 
@@ -124,9 +120,7 @@ body {
     min-height: 150px;
 }
 
-/* --- Botão --- */
 .botao-enviar {
-    display: block;
     width: 100%;
     padding: 18px 30px;
     background-color: #7E1C2F;
@@ -137,17 +131,16 @@ body {
     font-weight: 600;
     cursor: pointer;
     margin-top: 20px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+
 }
 
 .botao-enviar:hover {
     background-color: #3A0F1F;
     transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* --- Rodapé --- */
 .rodape{
-  position:fixed;
   left:0;
   right:0;
   bottom:0;
