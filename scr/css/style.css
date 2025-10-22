@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    background-color: #3A0F1F;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li a {
+    margin: 0 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+    color: rgb(252, 235, 235);
+}
+
+.banner {
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.atendcliente {
+    display: flex;
+    background-color: #b66166;
+    padding: 10px 0;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.atendcliente ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.atendcliente ul li {
+    color: rgb(252, 235, 235);
+}
+
+.intext {
+    color: #6d2a2f;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 10%;
+    font-size: 20px;
+    line-height: 1.6;
+    display: flex;
+    margin-top: 10px;
+}
+
+.rodape {
+    background-color: #742d2e;
+    color: #ffffff;
+    padding: 62px 0;
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
