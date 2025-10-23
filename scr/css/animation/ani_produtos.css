@@ -1,0 +1,94 @@
+.produto:nth-child(even) {
+  background-color: #fafafa;
+}
+ 
+ 
+.produto h2 {
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  color: #4c1a1b;
+}
+ 
+.produto h2::before,
+.produto h2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 25px;
+  height: 2px;
+  background-color: #742d2e;
+  opacity: 0.6;
+}
+ 
+.produto h2::before {
+  left: -35px;
+}
+ 
+.produto h2::after {
+  right: -35px;
+}
+ 
+ 
+::selection {
+  background-color: #742d2e;  
+  color: #fff;
+}
+ 
+ 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+ 
+.produto {
+  animation: fadeInUp 0.8s ease forwards;
+}
+ 
+ 
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+ 
+.preco {
+  color: #742d2e;
+  font-weight: bold;
+  text-align: center;
+  animation: pulse 3s infinite ease-in-out;
+}
+ 
+ 
+ 
+ 
+.produto {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+ 
+.produto:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+ 
+ 
+.produto img {
+  transition: transform 0.4s ease;
+}
+ 
+.produto img:hover {
+  transform: scale(1.05) rotate(-1deg);
+}
