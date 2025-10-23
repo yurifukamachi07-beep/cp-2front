@@ -19,11 +19,11 @@ cp-front-main/
 │   │── assets
 │   |   |── Imagens
 │   │── css
-    │   │   |──contato.css
-    │   │   |──produtos.css
-    │   │   |──sobrenos.css
-    │   │   |──unidades.css
-    │   │   |──style.css
+│   │   │   |──contato.css
+│   │   │   |──produtos.css
+│   │   │   |──sobrenos.css
+│   │   │   |──unidades.css
+│   │   │   |──style.css
 │   │──pages
 │       │── sobre_nos.html
 │       │── produtos.html
