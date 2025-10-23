@@ -18,25 +18,51 @@ cp-front-main/
 │──scr
 │   │── assets
 │   |   |── Imagens
+│   │
 │   │── css
+│   │   │──animation
 │   │   │   |──contato.css
 │   │   │   |──produtos.css
 │   │   │   |──sobrenos.css
 │   │   │   |──unidades.css
-│   │   │   |──style.css
+│   │   │
+│   │   │──style
+│   │   │   │──uni_contato.css
+│   │   │   │──uni_produtos.css
+│   │   │   │──uni_sobrenos.css
+│   │   │   │──uni_unidades.css
+│   │   │
+│   │   |──style.css
+│   │
 │   │──pages
 │       │── sobre_nos.html
 │       │── produtos.html
 │       │── contato.html
 │       │── unidades.html
+│      
 │── index.html
-│── README.md # Documentação do projeto
+│── README.md
 
-#Integrantes:
-André | RM 567149
-Kenzo | RM 568158
-Michel | RM 567345
-Yuri | RM 567314
+Efeitos Visuais
 
-#O site está disponível no GitHub:
+O projeto utiliza diversos recursos visuais para enriquecer a experiência do usuário:
+
+Pseudo-classes
+:hover em .caixa-conteudo, .vinicola-img, .btn-reserva, .botao-cta para aplicar transformações e efeitos de destaque ao passar o mouse.
+:hover article para revelar conteúdo adicional com transição suave.
+
+Pseudo-elementos
+::before e ::after em .caixa-conteudo para criar camadas visuais com gradientes e bordas animadas que aparecem ao interagir com o conteúdo.
+
+Animações
+@keyframes ondasVinho: animação aplicada ao fundo .fundo-animado, simulando ondas suaves com rotação e variação de opacidade, criando um efeito elegante e contínuo.
+
+Esses efeitos foram aplicados com transições suaves, transformações visuais e camadas sobrepostas.
+
+Integrantes:
+- Yuri Fukamachi — RM: 567314  
+- Kenzo Mimura — RM: 568158  
+- Michel Benchimol — RM: 567345
+
+O site está disponível no GitHub:
 https://yurifukamachi07-beep.github.io/cp-2front/
