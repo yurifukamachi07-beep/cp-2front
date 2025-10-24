@@ -19,7 +19,7 @@
   height: 2px;
   background-color: #742d2e;
   opacity: 0.6;
-}
+} 
  
 .produto h2::before {
   left: -35px;
@@ -35,41 +35,12 @@
   color: #fff;
 }
  
- 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
- 
-.produto {
-  animation: fadeInUp 0.8s ease forwards;
-}
- 
- 
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-}
- 
 .preco {
   color: #742d2e;
   font-weight: bold;
   text-align: center;
   animation: pulse 3s infinite ease-in-out;
 }
- 
- 
- 
  
 .produto {
   border: 1px solid #e0e0e0;
